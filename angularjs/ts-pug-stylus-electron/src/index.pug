@@ -1,0 +1,19 @@
+doctype html
+html(lang='es' ng-app='myproject' ng-controller='MainCtrl as mainCtrl')
+    head
+        meta(charset='utf-8')
+        title myproject
+        meta(content='' description='')
+        //- link(href='favicon.ico' rel='shortcut icon')
+        link(href='css/main.css' rel='stylesheet')
+
+    body
+        //< if (args.electron && args.dev) { >//
+        script(async='' id='__bs_script__' src='//<= paths.electron.livereload >//')
+        //< } >//
+
+        ss-table
+
+        script(src='vendor.js')
+        script(src='commons.js')
+        script(src='main.js')

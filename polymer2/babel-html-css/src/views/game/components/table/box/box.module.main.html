@@ -1,0 +1,57 @@
+<dom-module id="ss-box">
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+
+            :host .box {
+                align-items: center;
+                border: 1px solid #666;
+                cursor: pointer;
+                display: flex;
+                height: 100px;
+                justify-content: center;
+                text-align: center;
+                width: 100px;
+            }
+        </style>
+
+        <div on-click="push" class="box">
+            <img class$="{{hide}}" src="{{src}}">
+        </div>
+    </template>
+
+    <script>
+        let xo = 'O'
+
+        class SSBox extends Polymer.Element {
+            static get is() { return 'ss-box' }
+
+            static get properties() {
+                return {
+                    hide: {
+                        value: 'hide'
+                    }
+                }
+            }
+
+            constructor() {
+                super()
+            }
+
+            push (e) {
+                if (this.xo !== undefined) return
+
+                xo = (xo === 'O') ? 'X' : 'O'
+
+                this.hide = ''
+
+                this.xo = xo
+                this.src = `assets/${xo}.png`
+            }
+        }
+
+        customElements.define(SSBox.is, SSBox)
+    </script>
+</dom-module>

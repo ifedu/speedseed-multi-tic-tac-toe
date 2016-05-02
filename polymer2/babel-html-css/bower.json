@@ -1,0 +1,7 @@
+{
+    "name": "myproject with polymer2",
+    "private": true,
+    "dependencies": {
+        "Polymer": "1.11.1"
+    }
+}

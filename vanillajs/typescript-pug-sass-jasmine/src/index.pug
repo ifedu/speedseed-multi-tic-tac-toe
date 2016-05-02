@@ -1,0 +1,20 @@
+include views/game/components/table/table
+doctype html
+html(lang='es')
+    head
+        meta(charset='utf-8')
+        title myproject
+        meta(content='' name='description')
+        link(href='favicon.ico' rel='shortcut icon')
+        link(href='css/main.css' rel='stylesheet')
+
+    body
+        //< if (args.electron && args.dev) { >//
+        script(async='' id='__bs_script__' src='//<= paths.electron.livereload >//')
+        //< } >//
+
+        +table()
+
+        //- script(src='vendor.js')
+        script(src='commons.js')
+        script(src='main.js')

@@ -1,0 +1,17 @@
+{
+  "generator-speedseed": {
+    "coreName": "generator-speedseed",
+    "coreVersion": "0.29.0",
+    "project": "myproject",
+    "template": "multi-tic-tac-toe",
+    "templateFiles": false,
+    "electron": "yes",
+    "framework": "vanillajs",
+    "js": "babeljs",
+    "jsExtra": "js",
+    "html": "html",
+    "css": "css",
+    "unit-test": "jasmine",
+    "redux": "no"
+  }
+}

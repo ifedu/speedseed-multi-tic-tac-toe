@@ -1,0 +1,1 @@
+### Testing https://www.npmjs.com/package/generator-speedseed-multi-tic-tac-toe

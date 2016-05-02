@@ -1,0 +1,39 @@
+{
+    "compileOnSave": false,
+
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": "../",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "pretty": true,
+        "sourceMap": true,
+        "target": "es5",
+
+        "lib": ["es2016"],
+
+        "paths": {
+            "root/*": ["*"],
+            "src/*": ["src/*"]
+        },
+
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+
+        "types": [
+            "node"
+        ]
+    },
+
+    "exclude": [
+        "node_modules",
+        "-build",
+        "-dist",
+        "-electron",
+        "-tmp"
+    ]
+}

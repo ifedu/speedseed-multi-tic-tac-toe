@@ -1,0 +1,18 @@
+{
+  "generator-speedseed": {
+    "coreName": "generator-speedseed",
+    "coreVersion": "0.27.0",
+    "project": "myproject",
+    "template": "multi-tic-tac-toe",
+    "templateFiles": true,
+    "framework": "angularjs",
+    "js": "typescript",
+    "jsExtra": "ts",
+    "html": "pug",
+    "htmlExtra": "pug",
+    "css": "sass",
+    "cssExtra": "sass",
+    "unit-test": "mocha",
+    "redux": "no"
+  }
+}

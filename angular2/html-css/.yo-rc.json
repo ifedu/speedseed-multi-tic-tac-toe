@@ -1,0 +1,18 @@
+{
+  "generator-speedseed": {
+    "coreName": "generator-speedseed",
+    "coreVersion": "0.38.0",
+    "project": "myproject",
+    "template": "multi-tic-tac-toe",
+    "templateFiles": false,
+    "tplName": "generator-speedseed-multi-tic-tac-toe",
+    "tplVersion": "0.24.0",
+    "electron": "no",
+    "framework": "angular2",
+    "js": "typescript",
+    "html": "html",
+    "css": "css",
+    "unit-test": "no",
+    "redux": "no"
+  }
+}
