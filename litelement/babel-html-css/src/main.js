@@ -1,1 +1,1 @@
-import './views/game/components/table/box/box.component'
+import './views/game/components/table/table.component'

@@ -1,17 +1,17 @@
-ss-table {
+:host {
     align-items: center;
     display: flex;
     height: 100%;
     justify-content: center;
 }
 
-ss-table
+:host
 .table {
     height: 300px;
     width: 300px;
 }
 
-ss-table
+:host
 .line {
     display: flex;
 }

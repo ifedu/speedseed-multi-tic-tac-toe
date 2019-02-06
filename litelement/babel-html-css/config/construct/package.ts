@@ -1,6 +1,6 @@
 export default {
     "dependencies": {
-        "lit-html": "1.0.0-rc.2"
+        "lit-element": "2.0.0-rc.5",
     },
     "devDependencies": {},
     "scripts": {},

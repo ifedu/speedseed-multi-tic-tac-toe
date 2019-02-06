@@ -19,7 +19,7 @@
         "gulp": "gulp"
     },
     "dependencies": {
-        "lit-html": "1.0.0-rc.2"
+        "lit-element": "2.0.0-rc.5"
     },
     "devDependencies": {
         "@types/browser-sync": "0.0.41",

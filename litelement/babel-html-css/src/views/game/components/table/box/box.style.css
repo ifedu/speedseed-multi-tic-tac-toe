@@ -1,8 +1,8 @@
-ss-box {
+:host {
     display: block;
 }
 
-ss-box
+:host
 .box {
     align-items: center;
     border: 1px solid #666;
@@ -12,4 +12,8 @@ ss-box
     justify-content: center;
     text-align: center;
     width: 100px;
+}
+
+.hide {
+    display: none;
 }
