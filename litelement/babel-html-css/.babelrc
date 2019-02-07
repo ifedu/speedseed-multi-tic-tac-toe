@@ -1,9 +1,9 @@
 {
-    "presets": [
-        "es2016",
-        "es2017"
-    ],
+    "presets": [],
     "plugins": [
-        "transform-decorators-legacy"
+        [
+            "@babel/plugin-proposal-decorators",
+            { "decoratorsBeforeExport": true }
+        ]
     ]
 }
