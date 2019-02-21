@@ -25,7 +25,7 @@ export default {
         "tsconfig-paths": "3.8.0",
         "tslint": "5.12.1",
         "typescript": "3.3.1",
-        "webpack": "4.29.2"
+        "webpack": "4.29.3"
     },
     "scripts": {},
 }
