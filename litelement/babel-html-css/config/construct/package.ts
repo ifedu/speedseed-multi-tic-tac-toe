@@ -3,12 +3,13 @@ export default {
         "lit-element": "2.0.1",
     },
     "devDependencies": {
-        "@babel/core": "7.2.2",
+        "@babel/core": "7.3.4",
         "@babel/plugin-proposal-decorators": "7.3.0",
         "@types/browser-sync": "0.0.42",
-        "@types/lodash": "4.14.120",
-        "@types/node": "10.12.21",
-        "@types/webpack": "4.4.24",
+        "@types/extract-text-webpack-plugin": "3.0.4",
+        "@types/lodash": "4.14.121",
+        "@types/node": "11.10.4",
+        "@types/webpack": "4.4.25",
         "babel-loader": "8.0.5",
         "browser-sync": "2.26.3",
         "connect-history-api-fallback": "1.6.0",
@@ -23,9 +24,9 @@ export default {
         "ts-loader": "5.3.3",
         "ts-node": "8.0.2",
         "tsconfig-paths": "3.8.0",
-        "tslint": "5.12.1",
-        "typescript": "3.3.1",
-        "webpack": "4.29.3"
+        "tslint": "5.13.1",
+        "typescript": "3.3.3333",
+        "webpack": "4.29.6"
     },
     "scripts": {},
 }
