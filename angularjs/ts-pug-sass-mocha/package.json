@@ -18,7 +18,7 @@
         "test.watch": "gulp test.watch --spec"
     },
     "dependencies": {
-        "angular": "1.6.6"
+        "angular": "1.8.0"
     },
     "devDependencies": {
         "@types/browser-sync": "0.0.36",
