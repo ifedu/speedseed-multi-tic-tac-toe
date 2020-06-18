@@ -20,7 +20,7 @@
         "electron.run": "gulp electron.run --electron"
     },
     "dependencies": {
-        "angular": "1.6.6"
+        "angular": "1.8.0"
     },
     "devDependencies": {
         "@types/browser-sync": "0.0.36",
