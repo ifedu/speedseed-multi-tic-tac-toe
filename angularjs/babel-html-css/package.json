@@ -19,7 +19,7 @@
         "gulp": "gulp"
     },
     "dependencies": {
-        "angular": "1.6.8"
+        "angular": "1.8.0"
     },
     "devDependencies": {
         "@types/angular": "1.6.41",
