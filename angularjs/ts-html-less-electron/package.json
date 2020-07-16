@@ -57,7 +57,7 @@
         "gulp-util": "3.0.8",
         "gulp-watch": "4.3.11",
         "http-proxy-middleware": "0.17.4",
-        "lodash": "4.17.4",
+        "lodash": "4.17.19",
         "run-sequence": "2.2.0",
         "ts-loader": "2.3.7",
         "ts-node": "3.3.0",
