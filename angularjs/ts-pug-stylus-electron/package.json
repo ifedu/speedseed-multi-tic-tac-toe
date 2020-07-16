@@ -45,7 +45,7 @@
         "gulp-modify-file": "1.0.0",
         "gulp-plumber": "1.1.0",
         "http-proxy-middleware": "0.17.4",
-        "lodash": "4.17.4",
+        "lodash": "4.17.19",
         "run-sequence": "2.2.0",
         "ts-node": "3.3.0",
         "tsconfig-paths": "2.3.0",
