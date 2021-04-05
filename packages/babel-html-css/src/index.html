@@ -2,10 +2,12 @@
 <html lang="es">
 
 <head>
+    <!--< if (!args.electron) { >-->
+    <base href="./">
+    <!--< } >-->
     <meta charset="utf-8">
     <title>myproject</title>
-    <meta content="" name="description">
-    <link href="favicon.ico" rel="shortcut icon">
+    <meta content="" description="">
     <link href="css/main.css" rel="stylesheet">
 </head>
 
@@ -14,54 +16,9 @@
     <script async='' id='__bs_script__' src='<!--<= paths.electron.livereload >-->'></script>
     <!--< } >-->
 
-    <ss-table>
-        <div class="table">
-            <div class="line">
-                <ss-box>
-                    <div class="box"><img class="hide"></div>
-                </ss-box>
+    <sd-app>Loading...</sd-app>
 
-                <ss-box>
-                    <div class="box"><img class="hide"></div>
-                </ss-box>
-
-                <ss-box>
-                    <div class="box"><img class="hide"></div>
-                </ss-box>
-            </div>
-
-            <div class="line">
-                <ss-box>
-                    <div class="box"><img class="hide"></div>
-                </ss-box>
-
-                <ss-box>
-                    <div class="box"><img class="hide"></div>
-                </ss-box>
-
-                <ss-box>
-                    <div class="box"><img class="hide"></div>
-                </ss-box>
-            </div>
-
-            <div class="line">
-                <ss-box>
-                    <div class="box"><img class="hide"></div>
-                </ss-box>
-
-                <ss-box>
-                    <div class="box"><img class="hide"></div>
-                </ss-box>
-
-                <ss-box>
-                    <div class="box"><img class="hide"></div>
-                </ss-box>
-            </div>
-        </div>
-    </ss-table>
-
-    <!-- <script src="vendor.js"></script> -->
-    <script src="commons.js"></script>
+    <script src="vendor.js"></script>
     <script src="main.js"></script>
 </body>
 
